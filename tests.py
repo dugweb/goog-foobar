@@ -7,7 +7,7 @@ class testPieSolution(unittest.TestCase):
         
 
         self.assertEqual(solution.solution("abcabcabcabc"), 4)
-        # self.assertEqual(solution.solution("abccbaabccba"), 2)
+        self.assertEqual(solution.solution("abccbaabccba"), 2)
     
 
 if __name__ == '__main__':
